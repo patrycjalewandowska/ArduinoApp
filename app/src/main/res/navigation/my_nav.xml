@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_miastaPrzyszlosciFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_miastaPrzyszlosciFragment_to_waterFragment"
+            app:destination="@id/waterFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
@@ -35,4 +38,9 @@
             android:id="@+id/action_settingsFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/waterFragment"
+        android:name="com.blockapp.app.WaterFragment"
+        android:label="fragment_water"
+        tools:layout="@layout/fragment_water" />
 </navigation>
