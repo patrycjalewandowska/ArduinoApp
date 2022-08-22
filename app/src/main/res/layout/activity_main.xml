@@ -15,8 +15,6 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/my_nav"
 
-        app:layout_constraitTop_toTopOf ="parent"
-        app:layout_constraitBottom_toBottomOf ="parent"
-        app:layout_constraitLeft_toLeftOf ="parent"
-        app:layout_constraitRight_toRightOf ="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf ="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
